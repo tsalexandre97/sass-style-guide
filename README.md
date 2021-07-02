@@ -57,7 +57,8 @@
   header{
     background: $cor-principal;
     color: #cor-secundaria;
-  }```
+  }
+  ```
   
 
 <a id="comandos"></a>
