@@ -50,7 +50,7 @@
 ## 3 - Variáveis
 - O uso das variáveis é feito pelo sinal de Dólar ```$```. Assim como uma variável em linguagem de programação que armazena um valor e pode ser reutilizado em diversos lugares do código.\
 **Exemplo:**
-  ```
+  ```SCSS
   $cor-principal: #7a59e4; 
   $cor-secundaria: #121214;
 
@@ -64,11 +64,11 @@
 <a id="comandos"></a>
 ## 4 - Comandos
 - Em seu ambiente você precisará executar alguns comandos para facilitar o desenvolvimento. Acesse sua pasta de estilos css e execute:
-    ```
+    ```Shell
     sass nomeDoSeuArquivoScss.scss:nomeDoSeuArquivoCss.css
     ```
     O código acima precisa ser executado via linha de comando para toda e qualquer nova alteração feita no css. O que daria um belo de um trabalho, por isso o Sass proveu um comando chamado **watch** para compilar automaticamente toda vez que seu código é salvo, sem a necessidade de ir toda vez ao terminal e executar o comando. Execute uma única vez:
-    ```
+    ```Shell
     sass watch nomeDoSeuArquivoScss.scss:nomeDoSeuArquivoCss.css
     ```
     Consulte outros comandos na documentação oficial. [Sass Command-Line Interface](https://sass-lang.com/documentation/cli)
